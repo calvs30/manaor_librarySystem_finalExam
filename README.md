@@ -17,10 +17,10 @@ Every Borrowed Book entry explicitly references a parent profile via a Foreign K
 
 ## Key Functional Features
 
-* ** Secure Session Architecture:** Includes a multi-tier authentication system (`login.php`, `register.php`) utilizing strict administrative access and system state restrictions via global PHP `$_SESSION` controls.
-* ** Real-Time KPI Analytics Cards:** A full-color, CSS grid-driven key performance metrics panel processing live SQL aggregate database evaluations:
+* **Secure Session Architecture:** Includes a multi-tier authentication system (`login.php`, `register.php`) utilizing strict administrative access and system state restrictions via global PHP `$_SESSION` controls.
+* **Real-Time KPI Analytics Cards:** A full-color, CSS grid-driven key performance metrics panel processing live SQL aggregate database evaluations:
   * **Registered Borrowers:** Total headcount tracking current active member metrics.
   * **Books Checked Out:** Counts live, outstanding library circulation allocations.
   * **Total Books Returned:** Pulls data dynamically from activity logs tracking complete cycle returns.
-* ** System Activity Audit Logs:** A system audit trail module logging all administrative actions (`CREATE`, `UPDATE`, `DELETE`, `SEARCH`) detailing *who* executed *what* data operation, and *when* it occurred for strict compliance tracking.
-* ** High-Performance Fluid Layout:** Tailored using custom, responsive structural wrapper properties (`app-container`, flexbox splits, grid structures) that scale fluidly from extra-large screen desktop monitors down to standard narrow mobile layouts.
+* **System Activity Audit Logs:** A system audit trail module logging all administrative actions (`CREATE`, `UPDATE`, `DELETE`, `SEARCH`) detailing *who* executed *what* data operation, and *when* it occurred for strict compliance tracking.
+* **Responsive Layout:** Tailored using custom, responsive structural wrapper properties (`app-container`, flexbox splits, grid structures) that scale fluidly from extra-large screen desktop monitors down to standard narrow mobile layouts.
