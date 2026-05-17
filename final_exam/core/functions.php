@@ -171,7 +171,7 @@ function getDashboardMetrics($pdo) {
         $stmt3 = $pdo->query("SELECT COUNT(*) FROM activity_logs WHERE operation = 'DELETE' AND entity_type = 'Book'");
         $metrics['total_returned'] = $stmt3->fetchColumn();
     } catch (PDOException $e) {
-        // Fallback or handle missing logging tables gracefully
+        // Handle missing logging tables
     }
     
     return $metrics;
